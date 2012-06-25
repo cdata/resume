@@ -268,3 +268,98 @@ a:hover {
     padding-top: 0;
     margin-top: 0;
 }
+
+@media (max-width: 959px) {
+
+    #Resume {
+
+        width: auto;
+        margin: 0;
+
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #Resume > header {
+
+        padding-bottom: 0;
+    }
+
+    #Resume > header h1 {
+
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    #Resume > header h2 {
+
+        font-size: 18px;
+    }
+
+    #Resume > section#Contact {
+
+        position: relative;
+        top: inherit;
+        right: inherit;
+    }
+
+
+    #Contact > ul {
+
+        display: inline-block;
+        float: none;
+        padding: 0 20px 12px 0;
+    }
+
+
+    #Proficiency li  {
+
+        width: auto;
+        margin-right: 12px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    #Resume > header h1 {
+
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #Resume > header h2 {
+
+        font-size: 14px;
+    }
+
+    #Resume > section > header {
+
+        display: inherit;
+        position: inherit;
+        top: inherit;
+    }
+
+    #Resume > section h2,
+    #Resume > section h3 {
+
+        font-size: 1.17em;
+        line-height: 1.17em;
+    }
+
+    #Resume > section:not(#Contact) > *:not(header) {
+
+        margin-left: 0px;
+        line-height: 24px;
+    }
+
+    #Experience h5,
+    #Education h5 {
+
+        display: inherit;
+        position: inherit;
+        top: inherit;
+        right: inherit;
+    }
+}
+
