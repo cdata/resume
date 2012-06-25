@@ -1110,7 +1110,6 @@ a:hover {
         right: inherit;
     }
 
-
     #Contact > ul {
 
         display: inline-block;
@@ -1118,6 +1117,11 @@ a:hover {
         padding: 0 20px 12px 0;
     }
 
+    #Emphasis > section > div {
+
+        width: inherit;
+        display: inherit;
+    }
 
     #Proficiency li  {
 
