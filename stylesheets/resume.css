@@ -144,6 +144,11 @@ a:hover {
     border-top: 0;
 }
 
+#Contact > h2 {
+
+    display: none;
+}
+
 #Contact > ul {
 
     float: left;
