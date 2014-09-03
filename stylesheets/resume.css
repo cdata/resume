@@ -1,374 +1,373 @@
 
 body {
-
-    font-family: 'Georgia', serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: #333;
-    background: #fff;
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #333;
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
-    font-weight: normal;
-    margin: 0;
+  font-weight: normal;
+  margin: 0;
 }
 
 h2 {
-
-    font-style: italic;
+  font-style: italic;
 }
 
 ul, ol, li, div, section, dl, dt, dd {
-
-    display: block;
-    position: relative;
+  display: block;
+  position: relative;
 }
 
 ul, ol {
-
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 a {
+  color: #555;
+  text-decoration: none;
 
-    color: #555;
-    text-decoration: none;
+  -webkit-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -ms-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -o-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 
-    -webkit-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    -moz-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    -ms-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    -o-text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-transition-property: text-shadow, color;
+  -moz-transition-property: text-shadow, color;
+  -ms-transition-property: text-shadow, color;
+  -o-transition-property: text-shadow, color;
+  transition-property: text-shadow, color;
 
-    -webkit-transition-property: text-shadow, color;
-    -moz-transition-property: text-shadow, color;
-    -ms-transition-property: text-shadow, color;
-    -o-transition-property: text-shadow, color;
-    transition-property: text-shadow, color;
-
-    -webkit-transition-duration: 0.25s;
-    -moz-transition-duration: 0.25s;
-    -ms-transition-duration: 0.25s;
-    -o-transition-duration: 0.25s;
-    transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -ms-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
 }
 
 a:hover {
+  color: #000;
 
-    color: #000;
-
-    -webkit-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-    -moz-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-    -ms-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-    -o-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  -ms-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  -o-text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 #Resume {
+  width: 960px;
+  margin: 10px auto;
 
-    width: 960px;
-    margin: 10px auto;
+  border-top: 6px solid #333;
+  border-bottom: 4px solid #333;
+  background: url('../images/groovepaper.png') #fafafa;
 
-    border-top: 6px solid #333;
-    border-bottom: 4px solid #333;
-    background: url('/images/groovepaper.png') #fafafa;
+  -webkit-box-shadow: 0px 0px 30px #ddd;
+  -moz-box-shadow: 0px 0px 30px #ddd;
+  -ms-box-shadow: 0px 0px 30px #ddd;
+  -o-box-shadow: 0px 0px 30px #ddd;
+  box-shadow: 0px 0px 30px #ddd;
 
-    -webkit-box-shadow: 0px 0px 30px #ddd;
-    -moz-box-shadow: 0px 0px 30px #ddd;
-    -ms-box-shadow: 0px 0px 30px #ddd;
-    -o-box-shadow: 0px 0px 30px #ddd;
-    box-shadow: 0px 0px 30px #ddd;
-
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 
 #Resume > * {
-
-    margin: 0 40px;
-    padding: 20px 0;
+  margin: 0 40px;
+  padding: 20px 0;
 }
 
 #Resume > header {
-
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 #Resume > header h1 {
-
-    font-size: 48px;
-    line-height: 52px;
-    text-transform: uppercase;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
 }
 
 #Resume > header h2 {
-
-    font-size: 24px;
-    text-transform: uppercase;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 #Resume > section {
-
-    border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
 
 #Resume > section > header {
-
-    display: block;
-    position: absolute;
-    top: 40px;
+  display: block;
+  position: absolute;
+  top: 40px;
 }
 
 #Resume > section h2,
 #Resume > section h3 {
-
-    font-size: 1.17em;
-    line-height: 1.17em;
+  font-size: 1em;
+  line-height: 1em;
 }
 
-#Resume > section:not(#Contact) > *:not(header) {
-
-    margin-left: 160px;
-    line-height: 24px;
+#Resume > section:not(#Contact) > *:not(header):not(img) {
+  margin-left: 160px;
+  line-height: 24px;
 }
 
 #Resume > section#Contact {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  border-top: 0;
+}
 
-    position: absolute;
-    top: 10px;
-    right: 0px;
-    border-top: 0;
+#Profile > img {
+  display: block;
+  position: absolute;
+  margin: 0;
+  width: 128px;
+  height: 128px;
+  border-radius: 3px;
 }
 
 #Contact > h2 {
-
-    display: none;
+  display: none;
 }
 
 #Contact > ul {
-
-    float: left;
-    margin: 12px 0 0;
+  float: left;
+  margin: 12px 0 0;
 }
 
 #Contact > ul > li {
-
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 #Contact > ul > li > a {
-
-    width: auto;
+  width: auto;
 }
 
 #Contact > ul > li > a {
-
-    font-size: 16px;
-    line-height: 16px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 #Contact > ul > li > a::before {
-
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 #Emphasis > section > div {
-
-    width: 214px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px 20px 0 0;
-    padding: 0;
+  width: 214px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 20px 0 0;
+  padding: 0;
 }
 
 #Emphasis p,
 #Experience p {
-
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 18px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
-#Proficiency ul {
-
-    margin: 20px 0;
-    padding: 0;
+#Patents ul,
+#Community ul {
+  padding: 0;
+  font-size: 16px;
 }
 
-#Proficiency li  {
-
-    display: inline-block;
-    width: 234px;
-
-    font-size: 14px;
-    line-height: 18px;
+#Patents li,
+#Community li {
+  margin-bottom: 0.25em;
 }
 
 #Experience section > header,
 #Education section > header {
-
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #Experience h4,
 #Education h4 {
-
-    font-size: 0.9em;
-    line-height: 0.9em;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: italic;
 }
 
 #Experience h5,
 #Education h5 {
-
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 20px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 
 #Experience p {
-
-    color: #444;
+  color: #444;
 }
 
-#Experience ol,
-#Education ol {
-
-    padding-left: 0;
+#Experience > ol,
+#Education > ol {
+  padding-left: 0;
 }
 
-#Experience li:first-child,
-#Education li:first-child {
-
-    padding: 0 0 10px;
+#Experience > ol > li:first-child,
+#Education > ol > li:first-child {
+  padding: 0 0 10px;
 }
 
-#Experience li {
-
-    padding: 20px 0 10px;
-    border-bottom: 1px solid #ccc;
+#Experience > ol > li {
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #ccc;
 }
 
-#Experience li:last-child {
-
-    padding: 20px 0 0;
-    border-bottom: 0;
+#Experience > ol > li:last-child {
+  padding: 20px 0 0;
+  border-bottom: 0;
 }
 
-#Experience li:last-child p {
+#Experience a {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 70%;
+  vertical-align: bottom;
+}
 
-    margin-bottom: 0;
+#Experience > ol > li:last-child p {
+  margin-bottom: 0;
+}
+
+#Experience ul {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0 0 0 2em;
+}
+
+#Experience ul > li {
+  display: list-item;
 }
 
 #Resume footer {
+  font-size: 12px;
+  font-style: italic;
 
-    font-size: 12px;
-    font-style: italic;
-
-    text-align: center;
-    padding-top: 0;
-    margin-top: 0;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 @media (max-width: 959px) {
+  #Resume {
+    width: auto;
+    margin: 0;
 
-    #Resume {
+    border-radius: 0;
+    box-shadow: none;
+  }
 
-        width: auto;
-        margin: 0;
+  #Resume > header {
+    padding-bottom: 0;
+  }
 
-        border-radius: 0;
-        box-shadow: none;
-    }
+  #Resume > header h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
 
-    #Resume > header {
+  #Resume > header h2 {
+    font-size: 18px;
+  }
 
-        padding-bottom: 0;
-    }
+  #Resume > section#Contact {
+    position: relative;
+    top: inherit;
+    right: inherit;
+  }
 
-    #Resume > header h1 {
+  #Contact > ul {
+    display: inline-block;
+    float: none;
+    padding: 0 20px 12px 0;
+  }
 
-        font-size: 38px;
-        line-height: 42px;
-    }
+  #Emphasis > section > div {
+    width: inherit;
+    display: inherit;
+  }
 
-    #Resume > header h2 {
-
-        font-size: 18px;
-    }
-
-    #Resume > section#Contact {
-
-        position: relative;
-        top: inherit;
-        right: inherit;
-    }
-
-    #Contact > ul {
-
-        display: inline-block;
-        float: none;
-        padding: 0 20px 12px 0;
-    }
-
-    #Emphasis > section > div {
-
-        width: inherit;
-        display: inherit;
-    }
-
-    #Proficiency li  {
-
-        width: auto;
-        margin-right: 12px;
-    }
+  #Spells li  {
+    width: auto;
+    margin-right: 12px;
+  }
 }
 
 
 @media (max-width: 767px) {
+  #Profile > img {
+    position: relative;
+    margin: 0.5em 0 1.5em;
+  }
 
-    #Resume > header h1 {
+  #Resume > *:not(footer) {
+    padding-bottom: 0;
+  }
 
-        font-size: 24px;
-        line-height: 30px;
-    }
+  #Experience > ol > li {
+    border-bottom: 0;
+  }
 
-    #Resume > header h2 {
+  #Patents li,
+  #Community li {
+    margin-bottom: 1em;
+  }
 
-        font-size: 14px;
-    }
+  #Resume > header h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
 
-    #Resume > section > header {
+  #Resume > header h2 {
+    font-size: 14px;
+  }
 
-        display: inherit;
-        position: inherit;
-        top: inherit;
-    }
+  #Resume > section > header {
+    display: inherit;
+    position: inherit;
+    top: inherit;
+  }
 
-    #Resume > section h2,
-    #Resume > section h3 {
+  #Resume > section h2,
+  #Resume > section h3 {
+    font-size: 1em;
+    line-height: 1em;
+  }
 
-        font-size: 1.17em;
-        line-height: 1.17em;
-    }
+  #Resume > section:not(#Contact) > *:not(header):not(img) {
+    margin-left: 0px;
+    line-height: 24px;
+  }
 
-    #Resume > section:not(#Contact) > *:not(header) {
+  #Experience h5,
+  #Education h5 {
+    display: inherit;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+}
 
-        margin-left: 0px;
-        line-height: 24px;
-    }
-
-    #Experience h5,
-    #Education h5 {
-
-        display: inherit;
-        position: inherit;
-        top: inherit;
-        right: inherit;
-    }
+@media (max-width: 500px) {
+  #Resume > * {
+    margin: 0 20px;
+  }
 }
 
